@@ -148,7 +148,10 @@ const Footer = ({ show }) => {
       <div className="bg-brand-color md:px-44 px-4 flex pb-12 items-start justify-start">
         <div className="flex items-center justify-between w-full gap-12 pt-4">
           <p className="text-white/80 text-sm">
-            © 2025 DI-PLAN d.o.o. Sva prava pridržana.
+            © 2025 DI-PLAN d.o.o. Sva prava pridržana. Izrada:{" "}
+            <a href="https://www.ninefold.eu" target="_blank" rel="noopener">
+              Ninefold
+            </a>
           </p>
           <div className="flex items-center justify-end gap-4">
             <p className="text-white/80 text-sm">Terms & Conditions</p>
